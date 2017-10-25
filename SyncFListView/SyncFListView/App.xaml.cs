@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Syncfusion.ListView.XForms;
 using Xamarin.Forms;
 
 namespace SyncFListView
@@ -11,9 +7,13 @@ namespace SyncFListView
 	{
 		public App ()
 		{
+		    SfListView listView;
+
 			InitializeComponent();
 
-			MainPage = new SyncFListView.MainPage();
+            listView =new SfListView();
+			//MainPage = new SyncFListView.MainPage();
+            MainPage=new ContentPage{Content =listView};
 		}
 
 		protected override void OnStart ()
