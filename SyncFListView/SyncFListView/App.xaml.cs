@@ -5,16 +5,15 @@ namespace SyncFListView
 {
 	public partial class App : Application
 	{
-		public App ()
+	    SfListView listView;
+        public App ()
 		{
-		    SfListView listView;
-
 			InitializeComponent();
+		    MainPage = new SyncFListView.MainPage();
 
-            listView =new SfListView();
-			//MainPage = new SyncFListView.MainPage();
-            MainPage=new ContentPage{Content =listView};
-		}
+            //listView = new SfListView();
+            //MainPage = new ContentPage { Content = listView };
+        }
 
 		protected override void OnStart ()
 		{

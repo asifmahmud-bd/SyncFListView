@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SyncFListView\SyncFListView\SyncFListView.projitems*{150c9dc4-93aa-4d37-b24d-32c6bb9d315c}*SharedItemsImports = 4
 		SyncFListView\SyncFListView\SyncFListView.projitems*{a81a4333-fbcd-4763-a306-3277e927b9f7}*SharedItemsImports = 13
+		SyncFListView\SyncFListView\SyncFListView.projitems*{d7772f70-1762-4102-9083-444112b52657}*SharedItemsImports = 4
 		SyncFListView\SyncFListView\SyncFListView.projitems*{fc196196-5147-417f-baac-bcbe3e99ee90}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
