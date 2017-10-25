@@ -1,22 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Syncfusion.ListView.XForms;
 using Xamarin.Forms;
 
 namespace SyncFListView
 {
 	public partial class App : Application
 	{
-		public App ()
+	    SfListView listView;
+        public App ()
 		{
 			InitializeComponent();
+            //MainPage = new SyncFListView.MainPage();
 
-			MainPage = new SyncFListView.MainPage();
-		}
+            listView = new SfListView();
+            MainPage = new ContentPage { Content = listView };
+        }
 
-		protected override void OnStart ()
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}
