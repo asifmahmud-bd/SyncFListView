@@ -9,13 +9,13 @@ namespace SyncFListView
         public App ()
 		{
 			InitializeComponent();
-		    MainPage = new SyncFListView.MainPage();
+            //MainPage = new SyncFListView.MainPage();
 
-            //listView = new SfListView();
-            //MainPage = new ContentPage { Content = listView };
+            listView = new SfListView();
+            MainPage = new ContentPage { Content = listView };
         }
 
-		protected override void OnStart ()
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}
